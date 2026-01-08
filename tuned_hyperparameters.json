@@ -1,0 +1,23 @@
+[
+    {
+        "model": "DecisionTree",
+        "params": {
+            "max_depth": 24,
+            "criterion": "entropy"
+        },
+        "accuracy": 0.8593685588589001
+    },
+    {
+        "model": "NaiveBayes",
+        "params": {},
+        "accuracy": 0.7552474463777383
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": 3,
+            "metric": "minkowski"
+        },
+        "accuracy": 0.876391590933309
+    }
+]
