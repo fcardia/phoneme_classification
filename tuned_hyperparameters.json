@@ -1,23 +1,170 @@
-[
-    {
-        "model": "DecisionTree",
-        "params": {
-            "max_depth": 24,
-            "criterion": "entropy"
+{
+    "over": {
+        "DecisionTree": {
+            "params": {
+                "max_depth": 19,
+                "criterion": "log_loss"
+            },
+            "accuracy": 0.87639828267338
         },
-        "accuracy": 0.8593685588589001
-    },
-    {
-        "model": "NaiveBayes",
-        "params": {},
-        "accuracy": 0.7552474463777383
-    },
-    {
-        "model": "KNN",
-        "params": {
-            "n_neighbors": 3,
-            "metric": "minkowski"
+        "NaiveBayes": {
+            "params": {},
+            "accuracy": 0.710157845127396
         },
-        "accuracy": 0.876391590933309
+        "KNN": {
+            "params": {
+                "n_neighbors": 2,
+                "metric": "minkowski"
+            },
+            "accuracy": 0.9135212878176775
+        },
+        "SVC": {
+            "params": {
+                "kernel": "rbf",
+                "gamma": 1,
+                "C": 1
+            },
+            "accuracy": 0.855764656519902
+        },
+        "MLP": {
+            "params": {
+                "learning_rate": "constant",
+                "hidden_layer_sizes": 47
+            },
+            "accuracy": 0.8145042002405203
+        },
+        "RandomForest": {
+            "params": {
+                "n_estimators": 118,
+                "max_depth": 35,
+                "criterion": "log_loss"
+            },
+            "accuracy": 0.9171413544187477
+        },
+        "AdaBoost": {
+            "params": {
+                "n_estimators": 153
+            },
+            "accuracy": 0.7828716466774812
+        },
+        "XGBoost": {
+            "params": {
+                "n_estimators": 142,
+                "max_depth": 21
+            },
+            "accuracy": 0.9216115154255051
+        }
+    },
+    "under": {
+        "DecisionTree": {
+            "params": {
+                "max_depth": 19,
+                "criterion": "log_loss"
+            },
+            "accuracy": 0.8306871882670487
+        },
+        "NaiveBayes": {
+            "params": {},
+            "accuracy": 0.743302382054664
+        },
+        "KNN": {
+            "params": {
+                "n_neighbors": 5,
+                "metric": "euclidean"
+            },
+            "accuracy": 0.844895659541758
+        },
+        "SVC": {
+            "params": {
+                "kernel": "rbf",
+                "gamma": "scale",
+                "C": 100
+            },
+            "accuracy": 0.8461473956377041
+        },
+        "MLP": {
+            "params": {
+                "learning_rate": "constant",
+                "hidden_layer_sizes": 18
+            },
+            "accuracy": 0.8348704151780645
+        },
+        "RandomForest": {
+            "params": {
+                "n_estimators": 164,
+                "max_depth": 20,
+                "criterion": "log_loss"
+            },
+            "accuracy": 0.8758335444309535
+        },
+        "AdaBoost": {
+            "params": {
+                "n_estimators": 183
+            },
+            "accuracy": 0.8056018029192616
+        },
+        "XGBoost": {
+            "params": {
+                "n_estimators": 72,
+                "max_depth": 26
+            },
+            "accuracy": 0.8733248311946961
+        }
+    },
+    "none": {
+        "DecisionTree": {
+            "params": {
+                "max_depth": 24,
+                "criterion": "entropy"
+            },
+            "accuracy": 0.8593685588589001
+        },
+        "NaiveBayes": {
+            "params": {},
+            "accuracy": 0.7552474463777383
+        },
+        "KNN": {
+            "params": {
+                "n_neighbors": 3,
+                "metric": "minkowski"
+            },
+            "accuracy": 0.876391590933309
+        },
+        "SVC": {
+            "params": {
+                "kernel": "rbf",
+                "gamma": 1,
+                "C": 1
+            },
+            "accuracy": 0.8694780106863954
+        },
+        "MLP": {
+            "params": {
+                "learning_rate": "adaptive",
+                "hidden_layer_sizes": 42
+            },
+            "accuracy": 0.8337050737543956
+        },
+        "RandomForest": {
+            "params": {
+                "n_estimators": 118,
+                "max_depth": 35,
+                "criterion": "log_loss"
+            },
+            "accuracy": 0.8976100226819504
+        },
+        "AdaBoost": {
+            "params": {
+                "n_estimators": 170
+            },
+            "accuracy": 0.8102644197835319
+        },
+        "XGBoost": {
+            "params": {
+                "n_estimators": 190,
+                "max_depth": 36
+            },
+            "accuracy": 0.8939063189782466
+        }
     }
-]
+}
