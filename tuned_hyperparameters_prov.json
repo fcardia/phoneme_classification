@@ -1,0 +1,25 @@
+{
+    "over": {
+        "DecisionTree": {
+            "params": {
+                "max_depth": 20,
+                "criterion": "entropy"
+            },
+            "accuracy": 0.8828631449428677,
+            "f1": 0.8839471736791538
+        },
+        "NaiveBayes": {
+            "params": {},
+            "accuracy": 0.7182421391433523,
+            "f1": 0.7446197561519246
+        },
+        "KNN": {
+            "params": {
+                "n_neighbors": 1,
+                "metric": "euclidean"
+            },
+            "accuracy": 0.9398688544269135,
+            "f1": 0.9422061950989195
+        }
+    }
+}
