@@ -122,7 +122,7 @@ phoneme_classification/
 
 
 <p align="center">
-  Cardia F., Loddo M. N.<br>
+  Cardia F. Loddo M. N.<br>
   Data Mining Project 2025/2026<br>
   CdLM in Computer Science - Applied Artificial Intelligence<br>
   Cagliari State University
