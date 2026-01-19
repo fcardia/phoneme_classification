@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ```
 
 ## Folder organization
-```mermaid
+```
 phoneme_classification/
 ├── data/     # sets for validation
 ├── results/  # model performances
