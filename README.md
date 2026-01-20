@@ -49,7 +49,16 @@ This project applies data mining techniques to the [Phoneme dataset](https://ope
 ## Getting Started
 
 ### Prerequisites
-The Python version we tested to work for the project is **3.11.4**
+The Python version we tested to work for the project is **3.11.9**.
+
+To ensure to not have path related problems, we suggest to mount the project directory in a path that is **not too long** and that **not contains spaces**.
+```bash
+C:\Users\Mario Rossi\Desktop\University\Progetti\Data Mining\2026\Febbraio\phoneme_classification NOT GOOD
+C:\Users\Mario Rossi\phoneme_classification NOT GOOD
+C:\Users\MarioRossi\phoneme_classification PERFECT
+
+```
+
 
 To install all the necessary dependencies, create a virtual environment named PHONEME and install the requirements.
 
