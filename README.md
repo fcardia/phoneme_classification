@@ -55,7 +55,7 @@ To install all the necessary dependencies, create a virtual environment named PH
 
 In **macOS/Linux** run
 ```bash
-python -m venv PHONEME
+python3 -m venv PHONEME
 source PHONEME/bin/activate
 
 pip install --no-cache-dir -r requirements.txt
