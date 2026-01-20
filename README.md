@@ -58,7 +58,7 @@ In **macOS/Linux** run
 python -m venv PHONEME
 source PHONEME/bin/activate
 
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 
 ```
 In **Windows** run
@@ -66,7 +66,7 @@ In **Windows** run
 python -m venv PHONEME
 PHONEME\Scripts\activate
 
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 
 ```
 
